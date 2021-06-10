@@ -1,0 +1,37 @@
+.card {
+    width: 40%;
+    background:#fff;
+    padding: 1rem 2rem;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+.card-title {
+    margin: auto;
+    padding: 15px;
+    background-color: #2f7fad;
+    width: 80%;
+  padding:2rem 1rem;
+  color:#333;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+div.card-body {
+    padding: 0px
+}
+
+input {
+    outline: 0 ;
+    border-width: 0 0 2px ;
+    border-color: #d1d1cf;
+    
+}
+
+.btn{
+    width: 100px;
+    background-color: powderblue;
+    margin:1.5rem 0;
+    cursor: pointer;
+  }

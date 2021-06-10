@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air India</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body style="background-color:rgba(221, 24, 24, 0.877);"></body>
+
+    <header>
+        <div  class= "Image"></div>
+    <img src="LOGO.png" width="100%">
+    <H3>LOGIN | ENROLL</H3>
+    </div>
+    <nav class="navbar">
+    <!-- inline style  -->
+<style>
+ ul {
+  list-style-type: none;
+  margin: 2px;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgba(147, 184, 216, 0.3)
+}
+
+li {
+  float:left;
+  border-right:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover {
+  background-color:orange;
+}
+
+</style>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">Manage your trip</a></li>
+  <li><a href="#contact">special offers</a></li>
+  <li><a href="#about">Travel information</a></li>
+  <li><a href="#news">flying returns</a></li>
+  <li><a href="#news">baggage</a></li>
+  <li><a href="#news">contact</a></li>
+  <li><a href="#news">GST</a></li>
+</ul>
+        </nav>
+        </header>
+        
+        <!-- header section ends -->
+        
+        <!-- home section starts  -->
+        
+        <section class="home" id="home">
+            <!--Card-->
+<div class="card shadow mb-5 bg-white rounded">
+    <!--Card-Body-->
+    <div class="card-body">
+        <!--Card-Title-->
+        
+        <hr>
+        <!--First Row-->
+        <div class="row mb-3 mt-3"> <label class="radiobtn"><input type="radio" name="gender" value="male">One Way</label> <label class="radiobtn"><input type="radio" name="gender" value="male">Round Trip</label> </div>
+        <!--Second Row-->
+        <div class="row">
+            <div class="col-sm-6"> <select class="browser-default custom-select mb-4" id="select">
+                    <option value="" disabled="" selected="">From City/Airport</option>
+                    <option value="1">New Delhi</option>
+                    <option value="2">Mumbai</option>
+                    <option value="3">Bangalore</option>
+                </select> </div>
+            <div class="col-sm-6"> <select class="browser-default custom-select mb-4" id="select">
+                    <option value="" disabled="" selected="">To City/Airport</option>
+                    <option value="1">New Delhi</option>
+                    <option value="2">Mumbai</option>
+                    <option value="3">Bangalore</option>
+                </select> </div>
+        </div>
+        <!--Third Row-->
+        <div class="row">
+            <span>arrivals</span>
+            <input type="date">
+
+            <span>leaving</span>
+            <input type="date">
+        </div>
+        <div class="row">
+            <div class="col-sm-4"> <select class="browser-default custom-select mb-4" id="select">
+                    <option value="" disabled="" selected="">Kids(0-14)</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select> </div>
+            <div class="col-sm-4"> <select class="browser-default custom-select mb-4" id="select">
+                    <option value="" disabled="" selected="">Adults(15-64)</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select> </div>
+            <div class="col-sm-4"> <select class="browser-default custom-select mb-4" id="select">
+                    <option value="" disabled="" selected="">Seniors(65+)</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select> </div>
+        </div>  
+        <input class="btn" type="submit" value="BOOK NOW!">
+    </div>
+</div>
+<br><br><br>
+
+<marquee>Entry guidelines for all passangers. Mandatory to carry negative RT-PCR test report.</marquee>
+<style>
+    marquee{
+    font-size: 20px;
+    font-weight: 200;
+    background-color: khaki;
+    font-family: sans-serif;
+    }
+  </style>
